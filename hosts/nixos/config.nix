@@ -54,7 +54,7 @@ in
   # Styling Options
   stylix = {
     enable = true;
-    image = ../../config/wallpapers/beautifulmountainscape.jpg;
+    image = ../../config/wallpapers/Anime-Girl1.jpg;
     # base16Scheme = {
     #   base00 = "232136";
     #   base01 = "2a273f";
@@ -293,6 +293,7 @@ in
     spotify
     neovide
     greetd.tuigreet
+    prettierd
   ];
 
   fonts = {
