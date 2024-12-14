@@ -63,6 +63,7 @@ in
         neoscroll-nvim
         flash-nvim
         markdown-nvim
+        render-markdown
       ];
       extraConfig = ''
         set noemoji
