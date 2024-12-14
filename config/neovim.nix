@@ -59,6 +59,7 @@ in
         telescope-fzf-native-nvim
         vim-tmux-navigator
         oil-nvim
+        neoscroll
       ];
       extraConfig = ''
         set noemoji
@@ -79,6 +80,7 @@ in
         ${builtins.readFile ./nvim/plugins/treesitter.lua}
         ${builtins.readFile ./nvim/plugins/fine-cmdline.lua}
         ${builtins.readFile ./nvim/plugins/oil.lua}
+        ${builtins.readFile ./nvim/plugins/neoscroll.lua}
         require("ibl").setup()
         require("bufferline").setup{}
         require("lualine").setup({
