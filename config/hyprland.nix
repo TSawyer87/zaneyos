@@ -44,6 +44,7 @@ with lib;
           exec-once = killall -q waybar;sleep .5 && waybar
           exec-once = killall -q swaync;sleep .5 && swaync
           exec-once = nm-applet --indicator
+          exec-once = foot --server
           exec-once = lxqt-policykit-agent
           exec-once = sleep 1.5 && swww img /home/${username}/Pictures/Wallpapers/beautifulmountainscape.jpg
           monitor=,preferred,auto,1
@@ -138,6 +139,7 @@ with lib;
           bind = ${modifier},E,exec,emopicker9000
           bind = ${modifier},S,exec,screenshootin
           bind = ${modifier},D,exec,discord
+          bind = ${modifier},F1,exec,footclient
           bind = ${modifier},O,exec,obs
           bind = ${modifier},C,exec,hyprpicker -a
           bind = ${modifier},G,exec,gimp

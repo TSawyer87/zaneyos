@@ -22,7 +22,7 @@ in
       ];
       shell = pkgs.zsh;
       ignoreShellProgramCheck = true;
-      packages = with pkgs; [ yazi zoxide stow tokei mcfly
+      packages = with pkgs; [ yazi zoxide stow tokei mcfly foot fish
       ];
     };
     # "newuser" = {
