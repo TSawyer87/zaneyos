@@ -60,6 +60,7 @@ in
         vim-tmux-navigator
         oil-nvim
         neoscroll-nvim
+        flash-nvim
       ];
       extraConfig = ''
         set noemoji
@@ -81,6 +82,7 @@ in
         ${builtins.readFile ./nvim/plugins/fine-cmdline.lua}
         ${builtins.readFile ./nvim/plugins/oil.lua}
         ${builtins.readFile ./nvim/plugins/neoscroll.lua}
+        ${builtins.readFile ./nvim/plugins/flash.lua}
         require("ibl").setup()
         require("bufferline").setup{}
         require("lualine").setup({
