@@ -64,6 +64,7 @@ in
         flash-nvim
         markdown-nvim
         render-markdown
+        mkdnflow-nvim
       ];
       extraConfig = ''
         set noemoji
@@ -87,6 +88,7 @@ in
         ${builtins.readFile ./nvim/plugins/neoscroll.lua}
         ${builtins.readFile ./nvim/plugins/flash.lua}
         ${builtins.readFile ./nvim/plugins/markdown.lua}
+        ${builtins.readFile ./nvim/plugins/mkdnflow.lua}
         require("render-markdown").setup{}
         require("ibl").setup()
         require("bufferline").setup{}
