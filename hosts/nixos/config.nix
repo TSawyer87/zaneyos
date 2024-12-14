@@ -361,7 +361,7 @@ in
     printing = {
       enable = true;
       drivers = [
-        # pkgs.hplipWithPlugin
+         pkgs.hplipWithPlugin
       ];
     };
     gnome.gnome-keyring.enable = true;
