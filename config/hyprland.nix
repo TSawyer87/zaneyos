@@ -149,7 +149,7 @@ with lib;
           bind = ${modifier},Q,killactive,
           bind = ${modifier},P,pseudo,
           bind = ${modifier}SHIFT,I,togglesplit,
-          bind = ${modifier},F,fullscreen,
+          bind = ${modifier},F,exec, firefox
           bind = ${modifier}SHIFT,F,togglefloating,
           bind = ${modifier}SHIFT,C,exit,
           bind = ${modifier}SHIFT,left,movewindow,l
