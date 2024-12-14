@@ -59,7 +59,7 @@ in
         telescope-fzf-native-nvim
         vim-tmux-navigator
         oil-nvim
-        neoscroll
+        nvim-neoscroll
       ];
       extraConfig = ''
         set noemoji
