@@ -26,6 +26,7 @@ in
         yaml-language-server
         pyright
         marksman
+        prettierd
       ];
       plugins = with pkgs.vimPlugins; [
         alpha-nvim
@@ -61,6 +62,7 @@ in
         oil-nvim
         neoscroll-nvim
         flash-nvim
+        markdown-nvim
       ];
       extraConfig = ''
         set noemoji
@@ -83,6 +85,7 @@ in
         ${builtins.readFile ./nvim/plugins/oil.lua}
         ${builtins.readFile ./nvim/plugins/neoscroll.lua}
         ${builtins.readFile ./nvim/plugins/flash.lua}
+        require("render-markdown").setup{}
         require("ibl").setup()
         require("bufferline").setup{}
         require("lualine").setup({
