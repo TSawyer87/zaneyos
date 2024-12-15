@@ -301,6 +301,7 @@ in
     cmake
     gnumake
     ninja
+    libgcc
   ];
 
   fonts = {
