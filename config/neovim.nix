@@ -63,7 +63,7 @@ in
         neoscroll-nvim
         flash-nvim
         markdown-nvim
-        render-markdown
+        render-markdown-nvim
         mkdnflow-nvim
         telescope-nvim
       ];
