@@ -171,12 +171,7 @@ in
     zsh = {
       enable = true;
       enableCompletion = true;
-      syntaxHighlighting = {
-      enable = true;
-      };
-      autosuggestions = {
-        enable = true;
-      };
+      enableSyntaxHighlighting = true;
       enableAutosuggestions = true;
       profileExtra = ''
         #if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
