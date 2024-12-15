@@ -171,8 +171,8 @@ in
     zsh = {
       enable = true;
       enableCompletion = true;
-      syntaxHighlighting.enable = true;
-      autosuggestions.enable = true;
+      enableSyntaxHighlighting = true;
+      enableAutosuggestions = true;
       profileExtra = ''
         #if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
         #  exec Hyprland
@@ -213,6 +213,8 @@ in
         ll = "eza -lh --icons --grid --group-directories-first";
         la = "eza -lah --icons --grid --group-directories-first";
         ".." = "cd ..";
+        "...." = "cd ../../";
+        yz = "yazi";
       };
     };
     bash = {
