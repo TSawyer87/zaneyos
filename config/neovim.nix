@@ -66,7 +66,7 @@ in
         render-markdown-nvim
         mkdnflow-nvim
         telescope-nvim
-        codeium-nvim
+        #codeium-nvim
       ];
       extraConfig = ''
         set noemoji
