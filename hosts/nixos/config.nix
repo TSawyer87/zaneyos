@@ -297,9 +297,7 @@ in
     tealdeer
     mcfly
     zig_0_12
-    nodejs_23
-    zip
-    unzip
+    nodejs_22
   ];
 
   fonts = {
