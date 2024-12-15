@@ -79,25 +79,28 @@ in
     cursor.name = "Bibata-Modern-Ice";
     cursor.size = 24;
     fonts = {
-      monospace = {
-        package = pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; };
-        name = "JetBrainsMono Nerd Font Mono";
-      };
-      sansSerif = {
-        package = pkgs.montserrat;
-        name = "Montserrat";
-      };
-      serif = {
-        package = pkgs.montserrat;
-        name = "Montserrat";
-      };
-      sizes = {
-        applications = 12;
-        terminal = 15;
-        desktop = 11;
-        popups = 12;
-      };
-    };
+  monospace = {
+    # Change this:
+    # package = pkgs.nerdfonts.override { fonts = [ "JetBrainsMono" ]; };
+    # To this:
+    package = pkgs.nerd-fonts.jetbrains-mono;
+    name = "JetBrainsMono Nerd Font Mono";
+  };
+  sansSerif = {
+    package = pkgs.montserrat;
+    name = "Montserrat";
+  };
+  serif = {
+    package = pkgs.montserrat;
+    name = "Montserrat";
+  };
+  sizes = {
+    applications = 12;
+    terminal = 15;
+    desktop = 11;
+    popups = 12;
+  };
+};
   };
 
   # Extra Module Options
