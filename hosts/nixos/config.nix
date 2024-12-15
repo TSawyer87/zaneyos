@@ -294,6 +294,8 @@ in
     neovide
     greetd.tuigreet
     prettierd
+    tealdeer
+    mcfly
   ];
 
   fonts = {
