@@ -296,7 +296,7 @@ in
     prettierd
     tealdeer
     mcfly
-    zig_12
+    zig_0_12
   ];
 
   fonts = {
