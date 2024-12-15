@@ -66,6 +66,7 @@ in
         render-markdown-nvim
         mkdnflow-nvim
         telescope-nvim
+        codeium-nvim
       ];
       extraConfig = ''
         set noemoji
@@ -91,6 +92,7 @@ in
         ${builtins.readFile ./nvim/plugins/markdown.lua}
         ${builtins.readFile ./nvim/plugins/mkdnflow.lua}
         ${builtins.readFile ./nvim/plugins/telescope.lua}
+        ${builtins.readFile ./nvim/plugins/codeium.lua}
         require("render-markdown").setup{}
         require("ibl").setup()
         require("bufferline").setup{}
