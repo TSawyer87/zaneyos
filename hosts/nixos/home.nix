@@ -171,6 +171,8 @@ in
     zsh = {
       enable = true;
       enableCompletion = true;
+      syntaxHighlighting.enable = true;
+      autosuggestions.enable = true;
       profileExtra = ''
         #if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
         #  exec Hyprland
@@ -212,26 +214,6 @@ in
         la = "eza -lah --icons --grid --group-directories-first";
         ".." = "cd ..";
       };
-        plugins = [
-    {
-      name = "zsh-autosuggestions";
-      src = pkgs.fetchFromGitHub {
-            #owner = "zsh-users";
-        repo = "zsh-autosuggestions";
-            #rev = "v0.7.0";  # Use the version you want, here it matches your attempt above
-            #sha256 = "KLUYpUu4DHRumQZ3w59m9aTW6TBKMCXl2UcKi4uMd7w=";  # Correct hash for v0.7.0, update if using another version
-      };
-    }
-    {
-      name = "zsh-syntax-highlighting";
-      src = pkgs.fetchFromGitHub {
-            #owner = "zsh-users";
-        repo = "zsh-syntax-highlighting";
-            #rev = "0.8.0";  # Use the version you want
-            #sha256 = "0h7p1n41vlr79mm0yqka8n84xlmq6f474h1w0aq5b0jy2c3cx67p";  # Correct hash for 0.8.0, update if using another version
-      };
-    }
-  ];
     };
     bash = {
       enable = true;
