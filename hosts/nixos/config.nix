@@ -54,7 +54,7 @@ in
   # Styling Options
   stylix = {
     enable = true;
-    image = ../../config/wallpapers/Anime-Girl1.png;
+    image = ../../config/wallpapers/zaney-wallpaper.jpg;
     # base16Scheme = {
     #   base00 = "232136";
     #   base01 = "2a273f";
