@@ -298,6 +298,9 @@ in
     mcfly
     zig_0_12
     nodejs_22
+    cmake
+    gnumake
+    ninja
   ];
 
   fonts = {
