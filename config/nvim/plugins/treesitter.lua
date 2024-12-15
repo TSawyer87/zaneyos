@@ -1,4 +1,4 @@
-require("nvim-treesitter.configs").setup({
+require("nvim-treesitter.configs").setup{
     ensure_installed = {},
     ignore_install = {},
     auto_install = true,
@@ -22,6 +22,4 @@ require("nvim-treesitter.configs").setup({
     indent = {
         enable = false,
     },
-    },
-})
-require("nvim-treesitter.install").prefer_git = true
+    }
