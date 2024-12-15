@@ -1,7 +1,7 @@
 require('nvim-treesitter.configs').setup {
-    ensure_installed = {},
+    ensure_installed = { 'bash', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'vim', 'vimdoc', 'hyprlang' },
 
-    auto_install = false,
+    auto_install = true,
 
     highlight = { enable = true },
 
