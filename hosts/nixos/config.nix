@@ -54,7 +54,7 @@ in
   # Styling Options
   stylix = {
     enable = true;
-    image = ../../config/wallpapers/Akiakane-2.jpg;
+    image = ../../config/wallpapers/Anime-Room.png;
     # base16Scheme = {
     #   base00 = "232136";
     #   base01 = "2a273f";
