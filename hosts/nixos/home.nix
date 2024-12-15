@@ -184,6 +184,8 @@ in
 
         eval "$(zoxide init zsh)"
         eval "$(mcfly init zsh)"
+        source /nix/store/a968jwjkiyfqrl3vip547rd7r9xw8g5a-zsh-autosuggestions-0.7.0
+        source /nix/store/b5hrwv6dzypslhg27gpqwjg8s5gksakh-zsh-syntax-highlighting-0.8.0
 
         setopt correct                                                  # Auto correct mistakes
         setopt extendedglob                                             # Extended globbing. Allows using regular expressions with *
