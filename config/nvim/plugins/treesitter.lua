@@ -17,4 +17,5 @@ require('nvim-treesitter.configs').setup {
                     -- scope_incremental = "<c-s>",
                 },
             },
+    parser_install_dir = "/home/jr/.local/share/nvim/treesitter/parser"
 }
