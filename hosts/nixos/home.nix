@@ -172,7 +172,7 @@ in
       enable = true;
       enableCompletion = true;
       enableSyntaxHighlighting = true;
-      enableAutosuggestions = true;
+      autosuggestions.enable = true;
       profileExtra = ''
         #if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
         #  exec Hyprland
