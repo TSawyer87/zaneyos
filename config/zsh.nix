@@ -1,7 +1,8 @@
-{ config, ... }:
+{ ... }:
 
 
-    programs.zsh = {
+{programs = {
+  zsh = {
       enable = true;
       enableCompletion = true;
       syntaxHighlighting.enable = true;
@@ -79,3 +80,5 @@
         ".." = "cd ..";
       };
     };
+  };
+}
