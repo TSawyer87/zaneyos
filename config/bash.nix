@@ -1,7 +1,7 @@
 { pkgs, ... }:
 
 {programs = {
-  zsh = {
+  bash = {
       enable = true;
       enableCompletion = true;
       syntaxHighlighting.enable = true;
@@ -17,8 +17,8 @@
           source $HOME/.zshrc-personal
         fi
 
-        eval "$(zoxide init zsh)"
-        eval "$(mcfly init zsh)"
+        eval "$(zoxide init bash)"
+        eval "$(mcfly init bash)"
 
         setopt correct                                                  # Auto correct mistakes
         setopt extendedglob                                             # Extended globbing. Allows using regular expressions with *
@@ -36,7 +36,7 @@
       '';
       shellAliases = {
         sv = "sudo nvim";
-      #fr = "nh os switch --hostname ${host} /home/${username}/zaneyos";
+      #fr = "nh os switch --hostname $(builtins.hostName) /home/$(builtins.userName)/zaneyos";
       #fu = "nh os switch --hostname $(builtins.hostName) --update /home/$(builtins.userName)/zaneyos";
         zu = "sh <(curl -L https://gitlab.com/Zaney/zaneyos/-/raw/main/install-zaneyos.sh)";
         ncg = "nix-collect-garbage --delete-old && sudo nix-collect-garbage -d && sudo /run/current-system/bin/switch-to-configuration boot";
