@@ -27,6 +27,9 @@ in
         pyright
         marksman
         prettierd
+        stylua
+        shfmt
+        bash-language-server
       ];
       plugins = with pkgs.vimPlugins; [
         alpha-nvim
@@ -70,6 +73,7 @@ in
         twilight-nvim
         zen-mode-nvim
         nvim-ufo
+        mini-files
         #codeium-nvim
       ];
       extraConfig = ''
@@ -98,6 +102,7 @@ in
         ${builtins.readFile ./nvim/plugins/telescope.lua}
         ${builtins.readFile ./nvim/plugins/twilight.lua}
         ${builtins.readFile ./nvim/plugins/zen-mode.lua}
+        ${builtins.readFile ./nvim/plugins/mini-files.lua}
         require("render-markdown").setup{}
         require("ibl").setup()
         require("bufferline").setup{}
