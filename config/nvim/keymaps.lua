@@ -15,4 +15,4 @@ keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) 
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
 
 -- Hop
-kemap.set("n", "<leader>j", "<CMD>HopWord<CR>")
+keymap.set("n", "<leader>j", "<CMD>HopWord<CR>")
