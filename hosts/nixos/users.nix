@@ -22,7 +22,7 @@ in
       ];
       shell = pkgs.zsh;
       ignoreShellProgramCheck = true;
-      packages = with pkgs; [ yazi zoxide stow tokei mcfly foot fish zsh-autosuggestions zsh-syntax-highlighting lazygit
+      packages = with pkgs; [ yazi zoxide stow tokei mcfly zsh-autosuggestions zsh-syntax-highlighting lazygit
       ];
     };
     # "newuser" = {
