@@ -25,6 +25,7 @@
         export MCFLY_FUZZY=2
         export MCFLY_RESULTS=50
         export MCFLY_RESULTS_SORT=LAST_RUN
+        export MCFLY_INTERFACE_VIEW=BOTTOM
         eval "$(mcfly init zsh)"
 
         setopt correct                                                  # Auto correct mistakes
