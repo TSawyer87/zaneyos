@@ -20,7 +20,7 @@ config.window_background_opacity = 0.80
 config.window_decorations = "NONE"
 config.scrollback_lines = 3000
 config.default_workspace = "home"
-config.default_prog = { "/usr/bin/zsh", "-l" }
+-- config.default_prog = { "/usr/bin/zsh", "-l" }
 -- For example, changing the color scheme:
 config.color_scheme = "Dracula"
 config.window_padding = { left = "1cell", right = "1cell", top = 0, bottom = 0 }
