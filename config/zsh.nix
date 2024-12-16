@@ -21,6 +21,10 @@
         fi
 
         eval "$(zoxide init zsh)"
+        export MCFLY_KEY_SCHEME=vim
+        export MCFLY_FUZZY=2
+        export MCFLY_RESULTS=50
+        export MCFLY_RESULTS_SORT=LAST_RUN
         eval "$(mcfly init zsh)"
 
         setopt correct                                                  # Auto correct mistakes
