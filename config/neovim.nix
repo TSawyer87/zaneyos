@@ -96,7 +96,6 @@ in
         ${builtins.readFile ./nvim/plugins/markdown.lua}
         ${builtins.readFile ./nvim/plugins/mkdnflow.lua}
         ${builtins.readFile ./nvim/plugins/telescope.lua}
-        #${builtins.readFile ./nvim/plugins/trouble.lua}
         ${builtins.readFile ./nvim/plugins/twilight.lua}
         ${builtins.readFile ./nvim/plugins/zen-mode.lua}
         require("render-markdown").setup{}
