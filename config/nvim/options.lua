@@ -7,6 +7,7 @@ opt.expandtab = true
 opt.autoindent = true
 opt.wrap = false
 opt.ignorecase = true
+opt.colorcolumn = "80"
 opt.smartcase = true
 opt.termguicolors = true
 opt.background = "dark"

@@ -61,7 +61,7 @@ in
         vim-tmux-navigator
         oil-nvim
         neoscroll-nvim
-        flash-nvim
+        hop-nvim
         markdown-nvim
         render-markdown-nvim
         mkdnflow-nvim
@@ -88,7 +88,7 @@ in
         ${builtins.readFile ./nvim/plugins/fine-cmdline.lua}
         ${builtins.readFile ./nvim/plugins/oil.lua}
         ${builtins.readFile ./nvim/plugins/neoscroll.lua}
-        ${builtins.readFile ./nvim/plugins/flash.lua}
+        ${builtins.readFile ./nvim/plugins/hop.lua}
         ${builtins.readFile ./nvim/plugins/markdown.lua}
         ${builtins.readFile ./nvim/plugins/mkdnflow.lua}
         ${builtins.readFile ./nvim/plugins/telescope.lua}
