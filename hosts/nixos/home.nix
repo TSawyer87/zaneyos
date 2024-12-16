@@ -28,6 +28,7 @@ in
     ../../config/fastfetch
     ../../config/zsh.nix
     ../../config/bash.nix
+    ../../config/foot.nix
   ];
 
   # Place Files Inside Home Directory
