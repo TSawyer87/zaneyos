@@ -16,3 +16,15 @@ keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer
 
 -- Hop
 keymap.set("n", "<leader>j", "<CMD>HopWord<CR>")
+
+-- Trouble
+keymap.set("n", "<leader>tr", "<CMD>TroubleToggle lsp_references<CR>")
+keymap.set("n", "<leader>td", "<CMD>TroubleToggle lsp_definitions<CR>")
+keymap.set("n", "<leader>cd", "<CMD>TroubleToggle<CR>")
+
+-- Zen-Mode
+keymap.set("n", "<leader>zm", "<CMD>ZenMode<CR>")
+
+-- Ufo
+keymap.set("n", "zR", "<CMD>lua require('ufo').openAllFolds()<CR>")
+keymap.set("n", "zM", "<CMD>lua require('ufo').closeAllFolds()<CR>")

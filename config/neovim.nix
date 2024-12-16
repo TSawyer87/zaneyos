@@ -66,6 +66,10 @@ in
         render-markdown-nvim
         mkdnflow-nvim
         telescope-nvim
+        trouble-nvim
+        twilight-nvim
+        zen-mode-nvim
+        nvim-ufo
         #codeium-nvim
       ];
       extraConfig = ''
@@ -92,6 +96,9 @@ in
         ${builtins.readFile ./nvim/plugins/markdown.lua}
         ${builtins.readFile ./nvim/plugins/mkdnflow.lua}
         ${builtins.readFile ./nvim/plugins/telescope.lua}
+        #${builtins.readFile ./nvim/plugins/trouble.lua}
+        ${builtins.readFile ./nvim/plugins/twilight.lua}
+        ${builtins.readFile ./nvim/plugins/zen-mode.lua}
         require("render-markdown").setup{}
         require("ibl").setup()
         require("bufferline").setup{}
