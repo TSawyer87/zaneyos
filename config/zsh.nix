@@ -7,7 +7,7 @@
       syntaxHighlighting.enable = true;
       oh-my-zsh = {
         enable = true;
-    }
+    };
       autosuggestion.enable = true;
       profileExtra = ''
         #if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
