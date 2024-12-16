@@ -5,6 +5,9 @@
       enable = true;
       enableCompletion = true;
       syntaxHighlighting.enable = true;
+      oh-my-zsh = {
+        enable = true;
+    }
       autosuggestion.enable = true;
       profileExtra = ''
         #if [ -z "$DISPLAY" ] && [ "$XDG_VTNR" = 1 ]; then
@@ -36,6 +39,7 @@
       '';
       shellAliases = {
         sv = "sudo nvim";
+        fr = "sudo nixos-rebuild switch --flake /home/jr/zaneyos";
       #fr = "nh os switch --hostname ${host} /home/${username}/zaneyos";
       #fu = "nh os switch --hostname $(builtins.hostName) --update /home/$(builtins.userName)/zaneyos";
         zu = "sh <(curl -L https://gitlab.com/Zaney/zaneyos/-/raw/main/install-zaneyos.sh)";
@@ -46,9 +50,11 @@
         ll = "eza -lh --icons --grid --group-directories-first";
         la = "eza -lah --icons --grid --group-directories-first";
         ".." = "cd ..";
-        "...." = "cd ../../";
+        "..."="cd ../../..";
+        "...." = "cd ../../../../";
         yz = "yazi";
         lg = "lazygit";
+        mkdir = "mkdir -p";
       };
     };
   };
