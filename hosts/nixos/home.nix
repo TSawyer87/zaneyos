@@ -215,6 +215,7 @@ in
         ".." = "cd ..";
         "...." = "cd ../../";
         yz = "yazi";
+        lg = "lazygit";
       };
     };
     bash = {
