@@ -29,6 +29,7 @@ in
     ../../config/zsh.nix
     ../../config/bash.nix
     ../../config/foot.nix
+    ../../config/wezterm.nix
   ];
 
   # Place Files Inside Home Directory
