@@ -27,7 +27,7 @@ in
     ../../config/wlogout.nix
     ../../config/fastfetch
     ../../config/zsh.nix
-    #../../config/bash.nix
+    ../../config/bash.nix
   ];
 
   # Place Files Inside Home Directory
