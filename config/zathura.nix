@@ -1,4 +1,4 @@
-{ pkgs, inputs, ... }:
+{ ... }:
 
 {
   programs = {
@@ -7,7 +7,4 @@
     extraConfig = builtins.readFile ./zathurarc;
   };
   };
-home.packages = with pkgs; [
-    inputs.zathura.packages.${pkgs.system}.default
-  ];
 }
