@@ -306,6 +306,8 @@ in
     ninja
     libgcc
     fd
+    hyprls
+    nixd
   ];
 
   fonts = {
